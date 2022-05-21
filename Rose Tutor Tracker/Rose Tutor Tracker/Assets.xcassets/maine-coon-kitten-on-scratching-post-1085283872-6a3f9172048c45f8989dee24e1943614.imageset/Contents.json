@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "maine-coon-kitten-on-scratching-post-1085283872-6a3f9172048c45f8989dee24e1943614.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

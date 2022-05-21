@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>531249764335-hqq85pu6dvk5qcacdcgosov0nnl5grdh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.531249764335-hqq85pu6dvk5qcacdcgosov0nnl5grdh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCqEeUyg7byPpqgtQDnqFqg7vooXFXne00</string>
+	<key>GCM_SENDER_ID</key>
+	<string>531249764335</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.rose-hulman.Moraleej.Rose-Tutor-Tracker</string>
+	<key>PROJECT_ID</key>
+	<string>rose-tutor-tracker-b03f7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>rose-tutor-tracker-b03f7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:531249764335:ios:0c5eab265b2d72de62c81a</string>
+</dict>
+</plist>

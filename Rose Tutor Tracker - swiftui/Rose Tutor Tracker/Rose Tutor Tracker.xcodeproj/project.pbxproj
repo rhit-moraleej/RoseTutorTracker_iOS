@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1423B39127FFC09F00091C44 /* NavAppearanceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1423B39027FFC09F00091C44 /* NavAppearanceModifier.swift */; };
+		1423B393280106A800091C44 /* PRIVATE_KEY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1423B392280106A800091C44 /* PRIVATE_KEY.swift */; };
+		1423B39628013F7500091C44 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1423B39528013F7400091C44 /* Home.swift */; };
+		1423B3982801424B00091C44 /* StudentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1423B3972801424B00091C44 /* StudentViewModel.swift */; };
+		1423B3BC28064B5100091C44 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1423B3BB28064B5100091C44 /* Student.swift */; };
+		1423B3BE28064B6900091C44 /* TutorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1423B3BD28064B6900091C44 /* TutorRow.swift */; };
+		1423B3C02806503000091C44 /* TutorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1423B3BF2806503000091C44 /* TutorList.swift */; };
+		1423B3C22806514400091C44 /* TutorDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1423B3C12806514400091C44 /* TutorDetails.swift */; };
+		142AF32D27FF50DA00FC9BEE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AF32C27FF50DA00FC9BEE /* LoginViewModel.swift */; };
+		142AF32F27FF675D00FC9BEE /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142AF32E27FF675D00FC9BEE /* AuthManager.swift */; };
+		1472B3BC28068053004C78DE /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1472B3BB28068053004C78DE /* Tutor.swift */; };
+		1472B3BE280687F9004C78DE /* TempDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1472B3BD280687F9004C78DE /* TempDB.swift */; };
+		1473E47427FF43710056187A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 1473E47327FF43710056187A /* FirebaseAnalytics */; };
+		1473E47627FF43710056187A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1473E47527FF43710056187A /* FirebaseAuth */; };
+		1473E47827FF43710056187A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1473E47727FF43710056187A /* FirebaseFirestore */; };
+		1473E47A27FF43710056187A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 1473E47927FF43710056187A /* FirebaseStorage */; };
+		14C645ED28343435008FF21C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C645EC28343435008FF21C /* LoginView.swift */; };
+		14C645EF28343FE6008FF21C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14C645EE28343FE6008FF21C /* GoogleService-Info.plist */; };
+		14C645F128344C1E008FF21C /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C645F028344C1E008FF21C /* UserData.swift */; };
+		14C645F328348D7E008FF21C /* Rosefire2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C645F228348D7E008FF21C /* Rosefire2.swift */; };
+		14D8C1C727FF2C700095201B /* Rose_Tutor_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D8C1C627FF2C700095201B /* Rose_Tutor_TrackerApp.swift */; };
+		14D8C1C927FF2C700095201B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D8C1C827FF2C700095201B /* ContentView.swift */; };
+		14D8C1CB27FF2C710095201B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D8C1CA27FF2C710095201B /* Assets.xcassets */; };
+		14D8C1CE27FF2C710095201B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D8C1CD27FF2C710095201B /* Preview Assets.xcassets */; };
+		14E3336E280A168E009B569D /* LocationAndCourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E3336D280A168E009B569D /* LocationAndCourseView.swift */; };
+		14E33370280A1B08009B569D /* TutotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E3336F280A1B08009B569D /* TutotViewModel.swift */; };
+		14E33372280A3051009B569D /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E33371280A3051009B569D /* CourseRow.swift */; };
+		14F887B5280CED9A00F9DD14 /* AddCourseDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F887B4280CED9A00F9DD14 /* AddCourseDialog.swift */; };
+		14FC588C2808BB6600B8B64D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FC588B2808BB6600B8B64D /* MainView.swift */; };
+		14FC588E2808BBFC00B8B64D /* FindTutorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FC588D2808BBFC00B8B64D /* FindTutorView.swift */; };
+		14FC58902808D07700B8B64D /* FindTutorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FC588F2808D07700B8B64D /* FindTutorViewModel.swift */; };
+		14FC58962808E0C800B8B64D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FC58952808E0C800B8B64D /* SettingsView.swift */; };
+		14FC58982808ED1700B8B64D /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FC58972808ED1700B8B64D /* UserDetails.swift */; };
+		14FC589A2808FE8D00B8B64D /* TutorDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FC58992808FE8D00B8B64D /* TutorDate.swift */; };
+		14FC589C280917F000B8B64D /* TutorDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FC589B280917F000B8B64D /* TutorDateView.swift */; };
+		14FC589E2809190A00B8B64D /* AvailabilityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FC589D2809190A00B8B64D /* AvailabilityRow.swift */; };
+		5C2269CC37BB84DC66A5C538 /* Rosefire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C22655FE98903528550A885 /* Rosefire.swift */; };
+		6EDD5EC3C07EDE6037BB700A /* Pods_Rose_Tutor_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621E1F9D5C47EEA720954448 /* Pods_Rose_Tutor_Tracker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1423B39027FFC09F00091C44 /* NavAppearanceModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavAppearanceModifier.swift; sourceTree = "<group>"; };
+		1423B392280106A800091C44 /* PRIVATE_KEY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRIVATE_KEY.swift; sourceTree = "<group>"; };
+		1423B39528013F7400091C44 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1423B3972801424B00091C44 /* StudentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewModel.swift; sourceTree = "<group>"; };
+		1423B3BB28064B5100091C44 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		1423B3BD28064B6900091C44 /* TutorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorRow.swift; sourceTree = "<group>"; };
+		1423B3BF2806503000091C44 /* TutorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorList.swift; sourceTree = "<group>"; };
+		1423B3C12806514400091C44 /* TutorDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorDetails.swift; sourceTree = "<group>"; };
+		142AF32C27FF50DA00FC9BEE /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		142AF32E27FF675D00FC9BEE /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		1472B3BB28068053004C78DE /* Tutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
+		1472B3BD280687F9004C78DE /* TempDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempDB.swift; sourceTree = "<group>"; };
+		14C645EC28343435008FF21C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		14C645EE28343FE6008FF21C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		14C645F028344C1E008FF21C /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		14C645F228348D7E008FF21C /* Rosefire2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rosefire2.swift; sourceTree = "<group>"; };
+		14D8C1C327FF2C700095201B /* Rose Tutor Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rose Tutor Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D8C1C627FF2C700095201B /* Rose_Tutor_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rose_Tutor_TrackerApp.swift; sourceTree = "<group>"; };
+		14D8C1C827FF2C700095201B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		14D8C1CA27FF2C710095201B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14D8C1CD27FF2C710095201B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14E3336D280A168E009B569D /* LocationAndCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAndCourseView.swift; sourceTree = "<group>"; };
+		14E3336F280A1B08009B569D /* TutotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutotViewModel.swift; sourceTree = "<group>"; };
+		14E33371280A3051009B569D /* CourseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRow.swift; sourceTree = "<group>"; };
+		14F887B4280CED9A00F9DD14 /* AddCourseDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCourseDialog.swift; sourceTree = "<group>"; };
+		14FC588B2808BB6600B8B64D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		14FC588D2808BBFC00B8B64D /* FindTutorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTutorView.swift; sourceTree = "<group>"; };
+		14FC588F2808D07700B8B64D /* FindTutorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTutorViewModel.swift; sourceTree = "<group>"; };
+		14FC58952808E0C800B8B64D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		14FC58972808ED1700B8B64D /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		14FC58992808FE8D00B8B64D /* TutorDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorDate.swift; sourceTree = "<group>"; };
+		14FC589B280917F000B8B64D /* TutorDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorDateView.swift; sourceTree = "<group>"; };
+		14FC589D2809190A00B8B64D /* AvailabilityRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityRow.swift; sourceTree = "<group>"; };
+		4B2D2C04BAC5D5FC229E06F4 /* Pods-Rose Tutor Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rose Tutor Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Rose Tutor Tracker/Pods-Rose Tutor Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		5C22655FE98903528550A885 /* Rosefire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rosefire.swift; sourceTree = "<group>"; };
+		621E1F9D5C47EEA720954448 /* Pods_Rose_Tutor_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rose_Tutor_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4786EBCCBA0ECECB6BC203 /* Pods-Rose Tutor Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rose Tutor Tracker.release.xcconfig"; path = "Target Support Files/Pods-Rose Tutor Tracker/Pods-Rose Tutor Tracker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14D8C1C027FF2C700095201B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1473E47427FF43710056187A /* FirebaseAnalytics in Frameworks */,
+				1473E47A27FF43710056187A /* FirebaseStorage in Frameworks */,
+				1473E47627FF43710056187A /* FirebaseAuth in Frameworks */,
+				1473E47827FF43710056187A /* FirebaseFirestore in Frameworks */,
+				6EDD5EC3C07EDE6037BB700A /* Pods_Rose_Tutor_Tracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1423B394280108B700091C44 /* Rosefire */ = {
+			isa = PBXGroup;
+			children = (
+				1423B392280106A800091C44 /* PRIVATE_KEY.swift */,
+				5C22655FE98903528550A885 /* Rosefire.swift */,
+				14C645F228348D7E008FF21C /* Rosefire2.swift */,
+			);
+			path = Rosefire;
+			sourceTree = "<group>";
+		};
+		14D8C1BA27FF2C700095201B = {
+			isa = PBXGroup;
+			children = (
+				14D8C1C527FF2C700095201B /* Rose Tutor Tracker */,
+				14D8C1C427FF2C700095201B /* Products */,
+				A4034C6B6A569CAC41B9A775 /* Pods */,
+				F9199D3E122B97DE4A3CBBD8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14D8C1C427FF2C700095201B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14D8C1C327FF2C700095201B /* Rose Tutor Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14D8C1C527FF2C700095201B /* Rose Tutor Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				14FC58942808D11F00B8B64D /* ViewModel */,
+				14FC58912808D08000B8B64D /* Model */,
+				14FC58922808D09F00B8B64D /* View */,
+				1423B394280108B700091C44 /* Rosefire */,
+				14D8C1C627FF2C700095201B /* Rose_Tutor_TrackerApp.swift */,
+				14C645EE28343FE6008FF21C /* GoogleService-Info.plist */,
+				14D8C1C827FF2C700095201B /* ContentView.swift */,
+				14D8C1CA27FF2C710095201B /* Assets.xcassets */,
+				14D8C1CC27FF2C710095201B /* Preview Content */,
+				142AF32C27FF50DA00FC9BEE /* LoginViewModel.swift */,
+				142AF32E27FF675D00FC9BEE /* AuthManager.swift */,
+				1423B39027FFC09F00091C44 /* NavAppearanceModifier.swift */,
+			);
+			path = "Rose Tutor Tracker";
+			sourceTree = "<group>";
+		};
+		14D8C1CC27FF2C710095201B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				14D8C1CD27FF2C710095201B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14FC58912808D08000B8B64D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14FC58992808FE8D00B8B64D /* TutorDate.swift */,
+				1472B3BD280687F9004C78DE /* TempDB.swift */,
+				1423B3BB28064B5100091C44 /* Student.swift */,
+				1472B3BB28068053004C78DE /* Tutor.swift */,
+				14C645F028344C1E008FF21C /* UserData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14FC58922808D09F00B8B64D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1423B3BF2806503000091C44 /* TutorList.swift */,
+				1423B39528013F7400091C44 /* Home.swift */,
+				14FC588B2808BB6600B8B64D /* MainView.swift */,
+				14FC58952808E0C800B8B64D /* SettingsView.swift */,
+				14E3336D280A168E009B569D /* LocationAndCourseView.swift */,
+				14E33371280A3051009B569D /* CourseRow.swift */,
+				14FC589B280917F000B8B64D /* TutorDateView.swift */,
+				14FC589D2809190A00B8B64D /* AvailabilityRow.swift */,
+				14FC58972808ED1700B8B64D /* UserDetails.swift */,
+				1423B3BD28064B6900091C44 /* TutorRow.swift */,
+				14FC588D2808BBFC00B8B64D /* FindTutorView.swift */,
+				1423B3C12806514400091C44 /* TutorDetails.swift */,
+				14C645EC28343435008FF21C /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14FC58942808D11F00B8B64D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				14E3336F280A1B08009B569D /* TutotViewModel.swift */,
+				14FC588F2808D07700B8B64D /* FindTutorViewModel.swift */,
+				1423B3972801424B00091C44 /* StudentViewModel.swift */,
+				14F887B4280CED9A00F9DD14 /* AddCourseDialog.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A4034C6B6A569CAC41B9A775 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B2D2C04BAC5D5FC229E06F4 /* Pods-Rose Tutor Tracker.debug.xcconfig */,
+				7E4786EBCCBA0ECECB6BC203 /* Pods-Rose Tutor Tracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F9199D3E122B97DE4A3CBBD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				621E1F9D5C47EEA720954448 /* Pods_Rose_Tutor_Tracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14D8C1C227FF2C700095201B /* Rose Tutor Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14D8C1D127FF2C710095201B /* Build configuration list for PBXNativeTarget "Rose Tutor Tracker" */;
+			buildPhases = (
+				CD1A3EA87C1373C03AEAEE98 /* [CP] Check Pods Manifest.lock */,
+				14D8C1BF27FF2C700095201B /* Sources */,
+				14D8C1C027FF2C700095201B /* Frameworks */,
+				14D8C1C127FF2C700095201B /* Resources */,
+				3AAE430926E7E5ABF02C2CC5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rose Tutor Tracker";
+			packageProductDependencies = (
+				1473E47327FF43710056187A /* FirebaseAnalytics */,
+				1473E47527FF43710056187A /* FirebaseAuth */,
+				1473E47727FF43710056187A /* FirebaseFirestore */,
+				1473E47927FF43710056187A /* FirebaseStorage */,
+			);
+			productName = "Rose Tutor Tracker";
+			productReference = 14D8C1C327FF2C700095201B /* Rose Tutor Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14D8C1BB27FF2C700095201B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					14D8C1C227FF2C700095201B = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 14D8C1BE27FF2C700095201B /* Build configuration list for PBXProject "Rose Tutor Tracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14D8C1BA27FF2C700095201B;
+			packageReferences = (
+				1473E47227FF43710056187A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 14D8C1C427FF2C700095201B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14D8C1C227FF2C700095201B /* Rose Tutor Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14D8C1C127FF2C700095201B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14D8C1CE27FF2C710095201B /* Preview Assets.xcassets in Resources */,
+				14D8C1CB27FF2C710095201B /* Assets.xcassets in Resources */,
+				14C645EF28343FE6008FF21C /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AAE430926E7E5ABF02C2CC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rose Tutor Tracker/Pods-Rose Tutor Tracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rose Tutor Tracker/Pods-Rose Tutor Tracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rose Tutor Tracker/Pods-Rose Tutor Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD1A3EA87C1373C03AEAEE98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rose Tutor Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14D8C1BF27FF2C700095201B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1423B3982801424B00091C44 /* StudentViewModel.swift in Sources */,
+				1423B393280106A800091C44 /* PRIVATE_KEY.swift in Sources */,
+				1423B3C22806514400091C44 /* TutorDetails.swift in Sources */,
+				14FC589E2809190A00B8B64D /* AvailabilityRow.swift in Sources */,
+				142AF32D27FF50DA00FC9BEE /* LoginViewModel.swift in Sources */,
+				14FC58902808D07700B8B64D /* FindTutorViewModel.swift in Sources */,
+				14E3336E280A168E009B569D /* LocationAndCourseView.swift in Sources */,
+				14E33372280A3051009B569D /* CourseRow.swift in Sources */,
+				1472B3BE280687F9004C78DE /* TempDB.swift in Sources */,
+				1423B3BC28064B5100091C44 /* Student.swift in Sources */,
+				14F887B5280CED9A00F9DD14 /* AddCourseDialog.swift in Sources */,
+				14C645F328348D7E008FF21C /* Rosefire2.swift in Sources */,
+				1423B3C02806503000091C44 /* TutorList.swift in Sources */,
+				14E33370280A1B08009B569D /* TutotViewModel.swift in Sources */,
+				142AF32F27FF675D00FC9BEE /* AuthManager.swift in Sources */,
+				14FC58982808ED1700B8B64D /* UserDetails.swift in Sources */,
+				14FC589A2808FE8D00B8B64D /* TutorDate.swift in Sources */,
+				1423B3BE28064B6900091C44 /* TutorRow.swift in Sources */,
+				14FC58962808E0C800B8B64D /* SettingsView.swift in Sources */,
+				14FC588C2808BB6600B8B64D /* MainView.swift in Sources */,
+				14FC588E2808BBFC00B8B64D /* FindTutorView.swift in Sources */,
+				1472B3BC28068053004C78DE /* Tutor.swift in Sources */,
+				1423B39127FFC09F00091C44 /* NavAppearanceModifier.swift in Sources */,
+				14C645F128344C1E008FF21C /* UserData.swift in Sources */,
+				14C645ED28343435008FF21C /* LoginView.swift in Sources */,
+				14D8C1C927FF2C700095201B /* ContentView.swift in Sources */,
+				14D8C1C727FF2C700095201B /* Rose_Tutor_TrackerApp.swift in Sources */,
+				1423B39628013F7500091C44 /* Home.swift in Sources */,
+				14FC589C280917F000B8B64D /* TutorDateView.swift in Sources */,
+				5C2269CC37BB84DC66A5C538 /* Rosefire.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		14D8C1CF27FF2C710095201B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14D8C1D027FF2C710095201B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14D8C1D227FF2C710095201B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B2D2C04BAC5D5FC229E06F4 /* Pods-Rose Tutor Tracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rose Tutor Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = C256W45R5S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.rose-hulman.Moraleej.Rose-Tutor-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14D8C1D327FF2C710095201B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E4786EBCCBA0ECECB6BC203 /* Pods-Rose Tutor Tracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rose Tutor Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = C256W45R5S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.rose-hulman.Moraleej.Rose-Tutor-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14D8C1BE27FF2C700095201B /* Build configuration list for PBXProject "Rose Tutor Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D8C1CF27FF2C710095201B /* Debug */,
+				14D8C1D027FF2C710095201B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14D8C1D127FF2C710095201B /* Build configuration list for PBXNativeTarget "Rose Tutor Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D8C1D227FF2C710095201B /* Debug */,
+				14D8C1D327FF2C710095201B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1473E47227FF43710056187A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1473E47327FF43710056187A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1473E47227FF43710056187A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		1473E47527FF43710056187A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1473E47227FF43710056187A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		1473E47727FF43710056187A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1473E47227FF43710056187A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		1473E47927FF43710056187A /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1473E47227FF43710056187A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 14D8C1BB27FF2C700095201B /* Project object */;
+}

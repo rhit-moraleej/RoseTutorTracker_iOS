@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		147B381928382F6C00876BB2 /* CoursesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147B381828382F6C00876BB2 /* CoursesTableViewController.swift */; };
+		147B381B283848F500876BB2 /* SettingsSideNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147B381A283848F500876BB2 /* SettingsSideNav.swift */; };
+		147B381D28384F8600876BB2 /* AvailabilityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147B381C28384F8600876BB2 /* AvailabilityTableViewController.swift */; };
+		14AFAF2228366B3700209E77 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AFAF2128366B3700209E77 /* SettingViewController.swift */; };
+		14C6460128348FE5008FF21C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C6460028348FE5008FF21C /* AppDelegate.swift */; };
+		14C6460328348FE5008FF21C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C6460228348FE5008FF21C /* SceneDelegate.swift */; };
+		14C6460828348FE5008FF21C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C6460628348FE5008FF21C /* Main.storyboard */; };
+		14C6460A28348FE6008FF21C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C6460928348FE6008FF21C /* Assets.xcassets */; };
+		14C6460D28348FE6008FF21C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C6460B28348FE6008FF21C /* LaunchScreen.storyboard */; };
+		14C64616283490D5008FF21C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C64615283490D5008FF21C /* LoginViewController.swift */; };
+		14C6461828349174008FF21C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14C6461728349174008FF21C /* GoogleService-Info.plist */; };
+		14C64624283495EA008FF21C /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C64623283495EA008FF21C /* AuthManager.swift */; };
+		14C6462628349764008FF21C /* UserDocumentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C6462528349764008FF21C /* UserDocumentManager.swift */; };
+		14C64629283497C2008FF21C /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C64628283497C2008FF21C /* Student.swift */; };
+		14C6462C283498A9008FF21C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 14C6462B283498A9008FF21C /* FirebaseAuth */; };
+		14C6462E283498A9008FF21C /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 14C6462D283498A9008FF21C /* FirebaseDatabase */; };
+		14C64630283498A9008FF21C /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 14C6462F283498A9008FF21C /* FirebaseFirestoreSwift-Beta */; };
+		14C64632283498A9008FF21C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 14C64631283498A9008FF21C /* FirebaseStorage */; };
+		14C6463428349A0C008FF21C /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C6463328349A0C008FF21C /* Tutor.swift */; };
+		14C6463628349C0A008FF21C /* Rosefire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C6463528349C09008FF21C /* Rosefire.swift */; };
+		14C6463828349C8C008FF21C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C6463728349C8C008FF21C /* Constants.swift */; };
+		14C6463A2834AA95008FF21C /* FavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C646392834AA95008FF21C /* FavoriteTableViewController.swift */; };
+		14C6463D2834B06E008FF21C /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 14C6463C2834B06E008FF21C /* SideMenu */; };
+		14C646402834B0B0008FF21C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 14C6463F2834B0B0008FF21C /* Kingfisher */; };
+		14C646422834B423008FF21C /* SideNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C646412834B423008FF21C /* SideNavViewController.swift */; };
+		14C646442834B64F008FF21C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C646432834B64F008FF21C /* Extensions.swift */; };
+		14C646462835993F008FF21C /* TutorCollectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C646452835993E008FF21C /* TutorCollectionManager.swift */; };
+		14C646482835F6CC008FF21C /* TutorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C646472835F6CC008FF21C /* TutorDetailViewController.swift */; };
+		14C6464C28360653008FF21C /* ImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C6464B28360653008FF21C /* ImageUtils.swift */; };
+		14C6464E28361728008FF21C /* FindTutorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C6464D28361728008FF21C /* FindTutorTableViewController.swift */; };
+		14C6465028362337008FF21C /* TutorViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C6464F28362337008FF21C /* TutorViewCell.swift */; };
+		14C6465328364BAB008FF21C /* FindTutorSideNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C6465228364BAB008FF21C /* FindTutorSideNav.swift */; };
+		14C64655283656CF008FF21C /* TutorDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C64654283656CF008FF21C /* TutorDate.swift */; };
+		14DA143E283690C900A05143 /* UserUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DA143D283690C900A05143 /* UserUpdateViewController.swift */; };
+		14DA144028369DB000A05143 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DA143F28369DB000A05143 /* StorageManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		147B381828382F6C00876BB2 /* CoursesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableViewController.swift; sourceTree = "<group>"; };
+		147B381A283848F500876BB2 /* SettingsSideNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSideNav.swift; sourceTree = "<group>"; };
+		147B381C28384F8600876BB2 /* AvailabilityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityTableViewController.swift; sourceTree = "<group>"; };
+		14AFAF2128366B3700209E77 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		14C645FD28348FE5008FF21C /* Rose Tutor Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rose Tutor Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C6460028348FE5008FF21C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14C6460228348FE5008FF21C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		14C6460728348FE5008FF21C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14C6460928348FE6008FF21C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14C6460C28348FE6008FF21C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14C6460E28348FE6008FF21C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C64615283490D5008FF21C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		14C6461728349174008FF21C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		14C64623283495EA008FF21C /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		14C6462528349764008FF21C /* UserDocumentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDocumentManager.swift; sourceTree = "<group>"; };
+		14C64628283497C2008FF21C /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		14C6463328349A0C008FF21C /* Tutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
+		14C6463528349C09008FF21C /* Rosefire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Rosefire.swift; path = "Rose Tutor Tracker/Models/Rosefire.swift"; sourceTree = SOURCE_ROOT; };
+		14C6463728349C8C008FF21C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		14C646392834AA95008FF21C /* FavoriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewController.swift; sourceTree = "<group>"; };
+		14C646412834B423008FF21C /* SideNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideNavViewController.swift; sourceTree = "<group>"; };
+		14C646432834B64F008FF21C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		14C646452835993E008FF21C /* TutorCollectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorCollectionManager.swift; sourceTree = "<group>"; };
+		14C646472835F6CC008FF21C /* TutorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorDetailViewController.swift; sourceTree = "<group>"; };
+		14C6464B28360653008FF21C /* ImageUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtils.swift; sourceTree = "<group>"; };
+		14C6464D28361728008FF21C /* FindTutorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTutorTableViewController.swift; sourceTree = "<group>"; };
+		14C6464F28362337008FF21C /* TutorViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorViewCell.swift; sourceTree = "<group>"; };
+		14C6465228364BAB008FF21C /* FindTutorSideNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTutorSideNav.swift; sourceTree = "<group>"; };
+		14C64654283656CF008FF21C /* TutorDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorDate.swift; sourceTree = "<group>"; };
+		14DA143D283690C900A05143 /* UserUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserUpdateViewController.swift; sourceTree = "<group>"; };
+		14DA143F28369DB000A05143 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14C645FA28348FE5008FF21C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C646402834B0B0008FF21C /* Kingfisher in Frameworks */,
+				14C64630283498A9008FF21C /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				14C64632283498A9008FF21C /* FirebaseStorage in Frameworks */,
+				14C6462E283498A9008FF21C /* FirebaseDatabase in Frameworks */,
+				14C6463D2834B06E008FF21C /* SideMenu in Frameworks */,
+				14C6462C283498A9008FF21C /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14C645F428348FE5008FF21C = {
+			isa = PBXGroup;
+			children = (
+				14C6461728349174008FF21C /* GoogleService-Info.plist */,
+				14C645FF28348FE5008FF21C /* Rose Tutor Tracker */,
+				14C645FE28348FE5008FF21C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14C645FE28348FE5008FF21C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14C645FD28348FE5008FF21C /* Rose Tutor Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14C645FF28348FE5008FF21C /* Rose Tutor Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				14C6465128364B8A008FF21C /* Side Navs */,
+				14C646272834979A008FF21C /* Models */,
+				14C64622283495D1008FF21C /* Managers */,
+				14C64614283490B0008FF21C /* View Controllers */,
+				14C6460028348FE5008FF21C /* AppDelegate.swift */,
+				14C6460228348FE5008FF21C /* SceneDelegate.swift */,
+				14C6460628348FE5008FF21C /* Main.storyboard */,
+				14C6460928348FE6008FF21C /* Assets.xcassets */,
+				14C6460B28348FE6008FF21C /* LaunchScreen.storyboard */,
+				14C6460E28348FE6008FF21C /* Info.plist */,
+				14C6463728349C8C008FF21C /* Constants.swift */,
+				14C646432834B64F008FF21C /* Extensions.swift */,
+				14C6464B28360653008FF21C /* ImageUtils.swift */,
+			);
+			path = "Rose Tutor Tracker";
+			sourceTree = "<group>";
+		};
+		14C64614283490B0008FF21C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				14C646392834AA95008FF21C /* FavoriteTableViewController.swift */,
+				14C64615283490D5008FF21C /* LoginViewController.swift */,
+				14C646472835F6CC008FF21C /* TutorDetailViewController.swift */,
+				14C6464D28361728008FF21C /* FindTutorTableViewController.swift */,
+				14C6464F28362337008FF21C /* TutorViewCell.swift */,
+				14AFAF2128366B3700209E77 /* SettingViewController.swift */,
+				14DA143D283690C900A05143 /* UserUpdateViewController.swift */,
+				147B381828382F6C00876BB2 /* CoursesTableViewController.swift */,
+				147B381C28384F8600876BB2 /* AvailabilityTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		14C64622283495D1008FF21C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				14C64623283495EA008FF21C /* AuthManager.swift */,
+				14C6462528349764008FF21C /* UserDocumentManager.swift */,
+				14C646452835993E008FF21C /* TutorCollectionManager.swift */,
+				14DA143F28369DB000A05143 /* StorageManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		14C646272834979A008FF21C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				14C64628283497C2008FF21C /* Student.swift */,
+				14C6463328349A0C008FF21C /* Tutor.swift */,
+				14C64654283656CF008FF21C /* TutorDate.swift */,
+				14C6463528349C09008FF21C /* Rosefire.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		14C6465128364B8A008FF21C /* Side Navs */ = {
+			isa = PBXGroup;
+			children = (
+				14C646412834B423008FF21C /* SideNavViewController.swift */,
+				14C6465228364BAB008FF21C /* FindTutorSideNav.swift */,
+				147B381A283848F500876BB2 /* SettingsSideNav.swift */,
+			);
+			path = "Side Navs";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14C645FC28348FE5008FF21C /* Rose Tutor Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14C6461128348FE6008FF21C /* Build configuration list for PBXNativeTarget "Rose Tutor Tracker" */;
+			buildPhases = (
+				14C645F928348FE5008FF21C /* Sources */,
+				14C645FA28348FE5008FF21C /* Frameworks */,
+				14C645FB28348FE5008FF21C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rose Tutor Tracker";
+			packageProductDependencies = (
+				14C6462B283498A9008FF21C /* FirebaseAuth */,
+				14C6462D283498A9008FF21C /* FirebaseDatabase */,
+				14C6462F283498A9008FF21C /* FirebaseFirestoreSwift-Beta */,
+				14C64631283498A9008FF21C /* FirebaseStorage */,
+				14C6463C2834B06E008FF21C /* SideMenu */,
+				14C6463F2834B0B0008FF21C /* Kingfisher */,
+			);
+			productName = "Rose Tutor Tracker";
+			productReference = 14C645FD28348FE5008FF21C /* Rose Tutor Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14C645F528348FE5008FF21C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					14C645FC28348FE5008FF21C = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 14C645F828348FE5008FF21C /* Build configuration list for PBXProject "Rose Tutor Tracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14C645F428348FE5008FF21C;
+			packageReferences = (
+				14C6462A283498A9008FF21C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				14C6463B2834B06D008FF21C /* XCRemoteSwiftPackageReference "SideMenu" */,
+				14C6463E2834B0B0008FF21C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 14C645FE28348FE5008FF21C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14C645FC28348FE5008FF21C /* Rose Tutor Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14C645FB28348FE5008FF21C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C6460D28348FE6008FF21C /* LaunchScreen.storyboard in Resources */,
+				14C6460A28348FE6008FF21C /* Assets.xcassets in Resources */,
+				14C6460828348FE5008FF21C /* Main.storyboard in Resources */,
+				14C6461828349174008FF21C /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14C645F928348FE5008FF21C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C6463628349C0A008FF21C /* Rosefire.swift in Sources */,
+				14C6465028362337008FF21C /* TutorViewCell.swift in Sources */,
+				14C646422834B423008FF21C /* SideNavViewController.swift in Sources */,
+				14C64616283490D5008FF21C /* LoginViewController.swift in Sources */,
+				147B381928382F6C00876BB2 /* CoursesTableViewController.swift in Sources */,
+				14C6463428349A0C008FF21C /* Tutor.swift in Sources */,
+				14AFAF2228366B3700209E77 /* SettingViewController.swift in Sources */,
+				14DA143E283690C900A05143 /* UserUpdateViewController.swift in Sources */,
+				14C64629283497C2008FF21C /* Student.swift in Sources */,
+				14C64624283495EA008FF21C /* AuthManager.swift in Sources */,
+				14C6463A2834AA95008FF21C /* FavoriteTableViewController.swift in Sources */,
+				14C646442834B64F008FF21C /* Extensions.swift in Sources */,
+				14C646482835F6CC008FF21C /* TutorDetailViewController.swift in Sources */,
+				14C646462835993F008FF21C /* TutorCollectionManager.swift in Sources */,
+				14C6462628349764008FF21C /* UserDocumentManager.swift in Sources */,
+				14C6464E28361728008FF21C /* FindTutorTableViewController.swift in Sources */,
+				147B381D28384F8600876BB2 /* AvailabilityTableViewController.swift in Sources */,
+				14C6460128348FE5008FF21C /* AppDelegate.swift in Sources */,
+				14C6460328348FE5008FF21C /* SceneDelegate.swift in Sources */,
+				14C6463828349C8C008FF21C /* Constants.swift in Sources */,
+				147B381B283848F500876BB2 /* SettingsSideNav.swift in Sources */,
+				14C6464C28360653008FF21C /* ImageUtils.swift in Sources */,
+				14C64655283656CF008FF21C /* TutorDate.swift in Sources */,
+				14C6465328364BAB008FF21C /* FindTutorSideNav.swift in Sources */,
+				14DA144028369DB000A05143 /* StorageManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14C6460628348FE5008FF21C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14C6460728348FE5008FF21C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14C6460B28348FE6008FF21C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14C6460C28348FE6008FF21C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14C6460F28348FE6008FF21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14C6461028348FE6008FF21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14C6461228348FE6008FF21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C256W45R5S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rose Tutor Tracker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.rose-hulman.Moraleej.Rose-Tutor-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14C6461328348FE6008FF21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C256W45R5S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rose Tutor Tracker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.rose-hulman.Moraleej.Rose-Tutor-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14C645F828348FE5008FF21C /* Build configuration list for PBXProject "Rose Tutor Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C6460F28348FE6008FF21C /* Debug */,
+				14C6461028348FE6008FF21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14C6461128348FE6008FF21C /* Build configuration list for PBXNativeTarget "Rose Tutor Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C6461228348FE6008FF21C /* Debug */,
+				14C6461328348FE6008FF21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		14C6462A283498A9008FF21C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 8.14.0;
+			};
+		};
+		14C6463B2834B06D008FF21C /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		14C6463E2834B0B0008FF21C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		14C6462B283498A9008FF21C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14C6462A283498A9008FF21C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		14C6462D283498A9008FF21C /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14C6462A283498A9008FF21C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		14C6462F283498A9008FF21C /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14C6462A283498A9008FF21C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		14C64631283498A9008FF21C /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14C6462A283498A9008FF21C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		14C6463C2834B06E008FF21C /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14C6463B2834B06D008FF21C /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+		14C6463F2834B0B0008FF21C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14C6463E2834B0B0008FF21C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 14C645F528348FE5008FF21C /* Project object */;
+}
